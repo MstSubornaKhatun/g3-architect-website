@@ -1,28 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.open-sans-font {
-  font-family: "Open Sans", serif;
+.work-sans-font {
+  font-family: "Work Sans", serif;
   font-optical-sizing: auto;
-   font-weight: 400; /* font weight default 400 e thake */
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+}
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+
+/* dark 02 */
+.text-gray {
+    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray {
+    color: #727272;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 7px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    padding: 18px 20px;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
 }
 
 
-/* <style>
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+/* header style */
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
+/* navbar related style */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>; 
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
+.brand {
+    font-weight: 700px;
+    font-size: 2rem;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner {
+    max-width: 1354px;
+    margin: 0 auto;
+}
+
+/* banner related style */
+.banner-content {
+    max-width: 810px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.banner-title {
+    font-size: 3.75rem;
+    font-weight: 658;
+}
+
+
+
+.banner-image {
+    width: 1354px;
+    height: 700px;
+    
+
+
+}
