@@ -13,6 +13,11 @@
     display: flex;
 }
 
+main {
+    max-width: 1354px;
+    margin: 0 auto;
+}
+
 /* dark 02 */
 .text-gray {
     color: #424242;
@@ -64,6 +69,7 @@
 .navbar, .banner {
     max-width: 1354px;
     margin: 0 auto;
+
 }
 
 /* banner related style */
@@ -83,9 +89,25 @@
 
 
 .banner-image {
-    width: 1354px;
-    height: 700px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* team and feature related style */
+
+.teams {
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-link {
+        flex-direction: column;
+    }
     
-
-
 }
